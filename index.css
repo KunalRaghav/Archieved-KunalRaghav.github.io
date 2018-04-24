@@ -5,6 +5,7 @@
     margin-left:0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-shadow:rgba(0,0,0,0.4) 2px 2px 2px;
+    cursor: default;
 }
 a{
     text-decoration: none;
@@ -51,10 +52,10 @@ div{
     margin-left:0px;
     font-size:2em;
     transition-duration: 150ms;
-
 }
 #udc>a>li:hover{
     transition-duration: 150ms;
+    cursor: pointer;
     background:rgb(43, 216, 216);
 
 }
@@ -63,6 +64,7 @@ div{
     display: block;
     margin: 0 auto;
     padding-top:10px;
+    cursor: pointer;
     padding-bottom:10px;  
 }
 
@@ -98,4 +100,9 @@ ul{
     font-family: monospace;
     font-size: 34px;
     margin-left: 34px;
+}
+.li>a:hover{
+    transition-duration:150ms;
+    cursor: pointer;
+    color: rgba(59, 170, 221, 0.3);
 }
