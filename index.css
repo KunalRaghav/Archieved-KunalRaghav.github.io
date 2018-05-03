@@ -96,11 +96,51 @@ p{
 ul{
     padding-left: 15px;
 }
-.li{
+.knows{
+    list-style: none;
+    margin-top:10px;
+}
+.knows>li{
+    display: block;
+    border: rgba(233, 233, 233, 0.7) solid 1px;
+    border-radius: 4px;
+    box-shadow: rgba(37, 37, 37, 0.3) 0px 2px 4px;
+    padding: 25px 0;
+    margin:5px;
+    font-size: 1.8em;
+    text-align: center;
+
+}
+.knows>li:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 4px 1px;
+    background: rgba(255,255,255,0);
+    transition: all 300ms ease-in 10ms;
+    padding: 35px 0;
+
+}
+
+#py{
+    background: url(assets/Python2.png);
+}
+
+#c{
+    background: url(assets/c2.png);
+}
+#html{
+    background: url(assets/html2.png);
+}
+#css{
+    background: url(assets/css2.png);
+}
+#mkd{
+    background: url(assets/mk2.png);
+}
+
+/*.li{
     font-family: monospace;
     font-size: 34px;
     margin-left: 34px;
-}
+}*/
 .li>a:hover{
     transition-duration:150ms;
     cursor: pointer;
